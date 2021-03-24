@@ -1,3 +1,10 @@
 #!/usr/bin/env ruby
 
 require_relative '../config/environment'
+
+def initialize(board = nil)
+    puts "Welcome to Tic Tac Toe!"
+    board = [" "," "," "," "," "," "," "," "," "]
+    puts "Where would you like to go?"
+    play
+    end
